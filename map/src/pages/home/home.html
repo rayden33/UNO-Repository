@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      SendSingleSms
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <!-- <ion-item>
+   <ion-label floating>  Telefon raqam</ion-label>
+   <ion-input type="text" [(ngModel)]="telnum"></ion-input>
+ </ion-item>
+ <ion-item>
+  <ion-label floating> Maktub</ion-label>
+  <ion-input type="text" [(ngModel)]="smstext"></ion-input>
+</ion-item>
+<button ion-button block color="secondary" (click)="sendSms()">Yuborish</button>
+ -->
+ 
+ <ion-list
+ [dragula]='"first-bag"'
+ [dragulaModel]='items'>
+ <ion-item
+*ngFor="let item of items"
+id="{{ item.name }}">
+   {{ item.name }}
+ </ion-item>
+</ion-list>
+
+</ion-content>
