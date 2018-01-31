@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the Sale2Page page.
+ * Generated class for the NewsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-sale2',
-  templateUrl: 'sale2.html',
+  selector: 'page-news',
+  templateUrl: 'news.html',
 })
-export class Sale2Page {
+export class NewsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Sale2Page');
+    console.log('ionViewDidLoad NewsPage');
   }
 
 }
