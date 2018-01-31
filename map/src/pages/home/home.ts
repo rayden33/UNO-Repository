@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
-import { ContactPage } from './../contact/contact';
-import { NewsPage } from './../news/news';
+
 
 @Component({
   selector: 'page-home',
@@ -14,8 +13,5 @@ export class HomePage {
     
   }
   
-  goToContactPage(){
-    this.navCtrl.push(NewsPage);
-  }
   
 }
